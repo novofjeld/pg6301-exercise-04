@@ -9,10 +9,16 @@ export function Application() {
 
   const [description, setDescription] = useState("");
 
+  function handleSubmit(event) {
+    event.preventDefault();
+    setTasks((old) => [...old, { description }]);
+  }
+
   return (
     <>
+      <h1>Task aplickation</h1>
       <h2>New task</h2>
-      <form>
+      <form onSubmit={handleSubmit}>
         <div>
           Task name:
           <input
