@@ -1,4 +1,5 @@
 import React from "react";
 import { createRoot } from "react-dom/client";
+import { Application } from "./application";
 
-createRoot(document.getElementById("root")).render(<h1>Hello woorld</h1>);
+createRoot(document.getElementById("root")).render(<Application />);
