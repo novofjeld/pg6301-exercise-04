@@ -1,0 +1,32 @@
+{
+  "name": "pg6301-exercise-04",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "prettier --check .",
+    "prepare": "husky",
+    "dev": "vite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/novofjeld/pg6301-exercise-04.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/novofjeld/pg6301-exercise-04/issues"
+  },
+  "homepage": "https://github.com/novofjeld/pg6301-exercise-04#readme",
+  "devDependencies": {
+    "husky": "^9.1.7",
+    "prettier": "^3.9.6",
+    "vite": "^8.3.0"
+  },
+  "dependencies": {
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
+  }
+}
